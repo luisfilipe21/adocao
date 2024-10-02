@@ -1,12 +1,21 @@
-import { useState } from 'react'
+import { Header } from './components/Header'
+import { Footer } from './components/Footer'
+import { About } from './components/About'
+import { Pets } from './components/Pets'
+import { Donate } from './components/Donate'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <main>
-     sdfsdf
-    </main>
+    <>
+      <Header />
+      <main className='max-w-[1280px] p-8'>
+        <About />
+        <Pets />
+        <Donate />
+      </main>
+      <Footer />
+    </>
   )
 }
 
