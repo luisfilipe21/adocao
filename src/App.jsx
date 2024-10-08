@@ -8,13 +8,13 @@ function App() {
 
   return (
     <>
-      <Header />
-      <main className='max-w-[1280px] p-8'>
+      <main className='font-mono'>
+        <Header />
         <About />
         <Pets />
         <Donate />
+        <Footer />
       </main>
-      <Footer />
     </>
   )
 }
