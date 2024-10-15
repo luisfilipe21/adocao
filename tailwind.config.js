@@ -16,6 +16,9 @@ export default {
         playfair: ["Playfair Display", "sans-serif"],
         roboto: ["Roboto Mono", "sans-serif"],
       },
+      backgroundImage:{
+        bgImage: "url(src/assets/bg.png)"
+      },
       colors: {
         purple: {
           1: "#653D96ff"

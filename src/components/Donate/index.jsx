@@ -15,12 +15,12 @@ export const Donate = () => {
 
             <div className="md:max-w-[1080px] max-w-[720px]">
                 <div>
-                    <h2 className="font-roboto pb-12 text-3xl" >
+                    <h2 className="font-roboto pb-4 text-3xl" >
                         Não pode adotar agora?
                     </h2>
                 </div>
 
-                <div >
+                <div className="py-4">
                     <p className="my-4">
                         Pode ajudar de outras maneiras!
                     </p>
@@ -34,14 +34,14 @@ export const Donate = () => {
                     </p>
 
                     <p className="my-4">
-                        Se quiser ajudar de alguma forma, é só entrar em contato. Toda ajuda faz a diferença!
+                        Se quiser ajudar de alguma forma, é só entrar em contato pelo mesmo número do pix. Toda ajuda faz a diferença!
                     </p>
                 </div>
 
 
 
-                <div >
-                    <h3>
+                <div className="pt-8">
+                    <h3 className="font-roboto pb-12 text-2xl">
                         Maneiras de ajudar:
                     </h3>
 
@@ -60,19 +60,7 @@ export const Donate = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="flex flex-col justify-center items-center">
-                    <p>
-                        Ficamos em uma chácara próxima ao Itapoã
-                    </p>
-
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1614.613048762986!2d-47.67788885380609!3d-15.739568241836615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a1116c4e5bdfb%3A0x5d82e5921c5f42e7!2sCol%C3%B4nia%20Espiritual%20Esperan%C3%A7a%20e%20Consola%C3%A7%C3%A3o%20Francisco%20de!5e0!3m2!1spt-BR!2sbr!4v1728340772548!5m2!1spt-BR!2sbr"
-                        width="400"
-                        height="250"
-                        style={{ border: 'none' }}
-                    >
-                    </iframe>
-                </div>
+                
             </div>
         </section>
     )

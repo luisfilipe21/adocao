@@ -1,9 +1,10 @@
 import { delay, motion } from "framer-motion";
+import logo from "../../assets/logo.svg";
 
 export const Header = () => {
 
     return (
-        <header className="p-8 mx-auto bg-offWhite-1 ">
+        <header id="home" className="px-8 mx-auto bg-offWhite-1 ">
 
             <motion.div
                 initial={{ y: -100 }}
@@ -12,8 +13,8 @@ export const Header = () => {
                 className="md:max-w-[1080px] max-w-[720px]
              m-auto w-full flex justify-between items-center">
                 <div className="mr-8">
-                    <figure>
-                        <img src="src/assets/react.svg" />
+                    <figure >
+                        <img src={logo} className="h-28" />
                     </figure>
                 </div>
 
