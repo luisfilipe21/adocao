@@ -27,6 +27,10 @@ export default {
         purple: {
           1: "#653D96ff"
         },
+        black:{
+          1: "#E8E7E4",
+          2:"#050505cc"
+        },
         orange1: {
           1:
             "#F8AC41ff"
@@ -42,7 +46,8 @@ export default {
         },
         offWhite: {
           1: "#DACFC7ff",
-          2: "#A68C70ff"
+          2: "#BCB0A7",
+          3: "#DACFC7"
         },
       },
       height:{
@@ -50,9 +55,7 @@ export default {
         h2: "15rem",
       },
       boxShadow: {
-        "purpleShadow":
-          "0 25px 50px -12px rgba(51, 51, 51, .5)"
-
+        "3xl":"5px 15px 20px 5px rgba(10, 1, 0, 0.2)",
       },
       screens: {
         "mobileHover": {

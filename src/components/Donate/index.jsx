@@ -11,56 +11,70 @@ export const Donate = () => {
         flex items-center 
         justify-between 
         p-8 mx-auto
-        flex-col py-20 lg:px-10">
+        flex-col py-20 lg:px-10
+        text-justify">
 
-            <div className="md:max-w-[1080px] max-w-[720px] flex flex-col">
+            <div className="md:max-w-[1080px] max-w-[720px] flex flex-col z-30">
                 <div>
                     <h2 className="font-protest text-orange1-1 pb-12 text-4xl" >
                         Não pode adotar agora?
                     </h2>
                 </div>
 
-                <div className="py-4 text-xl relative">
-                    <h2 className="my-4">
-                        Pode ajudar de outras maneiras!
-                    </h2>
-
-                    <p className="my-4 text-2xl w-1/2">
-                        Seja com doação de ração, areia para as caixas dos gatos, ajuda com consultas veterinárias e medicamentos, com uma doação financeira ou até mesmo com seu tempo, se quiser vir dar uma força.
+                <div className="py-8 text-3xl relative text-justify font-bold text-black-2">
+                    <p className="my-6 text-2xl">
+                        Ajude! Seja com doação de ração, areia para as caixas dos gatos, ajuda com consultas veterinárias e medicamentos, com uma doação financeira ou até mesmo com seu tempo, toda ajuda é bem vinda.
                     </p>
 
-                    <p className="my-4 text-2xl w-1/2">
-                        Qualquer contribuição é mais que bem-vinda! Juntos, podemos garantir que nenhum animalzinho fique para trás e que todos recebam o cuidado e o carinho que merecem.
+                    <p className="my-6 text-2xl">
+                        Toda contribuição ajuda! Juntos, podemos garantir que nenhum animalzinho fique para trás e que todos recebam o cuidado e o carinho que merecem.
                     </p>
 
-                    <p className="my-4 text-2xl w-1/2">
-                        Se quiser ajudar de alguma forma, é só entrar em contato pelo mesmo número do pix. Toda ajuda faz a diferença!
+                    <p className="my-6 text-2xl">
+                        Para ajudar, é só entrar em contato pelo mesmo número do pix.
                     </p>
-                    <div className="absolute w-1/2 h-full top-0 left-96 flex flex-col justify-around opacity-60 text-8xl text-purple-1">
-                        <h3>DOE AMOR</h3>
-                        <h3>DOE RAÇÃO</h3>
-                        <h3>DOE TEMPO</h3>
-                    </div>
                 </div>
 
 
-                <div className="pt-8">
-                    <h3 className="font-roboto pb-12 text-2xl">
+                <div className="pt-8 z-40">
+                    <h3 className="font-protest text-orange1-1 pb-12 text-4xl ">
                         Maneiras de ajudar:
                     </h3>
 
-                    <ul className="flex items-center justify-between w-full flex-wrap gap-8 h-96 font-inter">
-                        <li className="flex items-center text-3xl gap-4">
-                            <SiPix size={80} color="#F8AC41ff" /> Pix: (61) 99999-9999
+                    <ul className="flex items-center justify-between 
+                    w-full flex-wrap gap-8 h-96 
+                    font-mono text-start
+                    md:flex-col 
+                    md:h-[16rem]
+                    md:justify-evenly
+                    ">
+                        <li className="
+                        flex items-center text-3xl gap-8
+                        sm:max-w-60
+                        md:max-w-72
+                        ">
+                            <SiPix size={60} color={"#BCB0A7"} /> Pix: (61) 99999-9999
                         </li>
-                        <li className="flex items-center text-3xl gap-4">
-                            <GiDogBowl size={80} color="#653D96ff" /> Ração para cão ou gato
+                        <li className="
+                        flex items-center  text-3xl gap-8
+                        sm:max-w-60
+                        md:max-w-72
+                        ">
+                            <GiDogBowl size={60} color={"#BCB0A7"} /> Ração para cão ou gato
                         </li>
-                        <li className="flex items-center text-3xl gap-4">
-                            < GiCoalPile size={80} color="#F8AC41ff" /> Areia para gato
+                        <li className="
+                        flex items-center  text-3xl gap-8
+                        sm:max-w-60
+                        md:max-w-72
+                        ">
+                            < GiCoalPile size={60} color={"#BCB0A7"} /> Areia para gato
                         </li>
-                        <li className="flex items-center text-3xl gap-4">
-                            <FaUserDoctor size={80} color="#653D96ff" />  Ajuda com veterinário
+                        <li className="
+                        flex items-center  text-3xl gap-8
+                        sm:max-w-60
+                        md:max-w-72
+                        ">
+                            <FaUserDoctor size={60} color={"#BCB0A7"} />  Ajuda com veterinário
                         </li>
                     </ul>
                 </div>

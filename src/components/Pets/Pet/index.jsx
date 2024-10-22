@@ -24,8 +24,9 @@ export const Pet = () => {
             className="mx-auto relative">
             <div
                 className="flex flex-col items-center 
-                justify-center p-4 
-                border border-offWhite-1 rounded-lg my-4 hover:shadow-purpleShadow
+                justify-center p-4 rounded-lg my-4
+                border border-offWhite-1 
+                hover:bg-offWhite-3 hover:shadow-3xl
             ">
                 <div className="mb-8">
                     <figure className="w-44">

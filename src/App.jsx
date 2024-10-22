@@ -19,7 +19,7 @@ function App() {
         <Pets />
         <Donate />
         <Visit />
-        <div className="absolute bg-bgImage2 bg-contain w-screen h-full bg-repeat top-40 opacity-10 z-10"></div>
+        <div className="absolute bg-bgImage2 bg-contain w-full h-full bg-repeat top-40 opacity-10 z-10"></div>
       </main>
       <Footer />
     </>
