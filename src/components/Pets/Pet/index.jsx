@@ -4,19 +4,29 @@ import { PiDogFill } from "react-icons/pi";
 import { SlMustache } from "react-icons/sl";
 import { IoIosBowtie } from "react-icons/io";
 import { IoPawOutline } from "react-icons/io5";
-import { motion } from "framer-motion"
+import { delay, motion } from "framer-motion"
 
 import foto from '../../../assets/teste.png';
 
 export const Pet = () => {
+
+    const item = {
+        hidden: { opacity: 0 },
+        show: { opacity: 1 }
+    }
+
+
+
     return (
         <motion.li
             whileHover={{ y: -20 }}
+            variants={item}
             className="mx-auto relative">
             <div
                 className="flex flex-col items-center 
-            justify-center p-4 
-            border rounded-lg my-4 hover:shadow-2xl">
+                justify-center p-4 
+                border border-offWhite-1 rounded-lg my-4 hover:shadow-purpleShadow
+            ">
                 <div className="mb-8">
                     <figure className="w-44">
                         <img src={foto} alt="" className="w-full" />
@@ -65,9 +75,11 @@ export const Pet = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute top-0 -left-4 flex items-center gap-2 bg-offWhite-2 rounded-lg px-2">
-                <IoPawOutline size={22} className="text-white1-1" /> <span className="text-white1-1 font-semibold">Estou disponível</span>
-            </div>
+            <motion.div
+                className="absolute top-0 -left-4 flex items-center gap-2 bg-purple-1 rounded-lg px-2">
+                <IoPawOutline size={22} className="text-white1-1" />
+                <motion.span className="text-white1-1 font-semibold">Estou disponível</motion.span>
+            </motion.div>
         </motion.li>
     )
 }

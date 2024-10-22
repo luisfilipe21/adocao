@@ -12,29 +12,29 @@ export const Footer = () => {
              m-auto w-full flex justify-between items-center">
 
                 <div>
-                    <a href="#home">
-                        <img src={logo} alt="" className="h-28" />
+                    <a href="#top">
+                        <img src={logo} alt="" className="max-h-28 max-w-28 md:h-28" />
                     </a>
                 </div>
 
                 <div className="w-[720px]">
                     <nav>
-                        <ul className="w-full flex flex-col items-end font-playfair">
-                            <li className="hover:underline hover:underline-offset-4">
+                        <ul className="w-full flex flex-col items-end md:items-center md:flex-row md:justify-evenly gap-2 font-playfair">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
                                 <a href="#about">
                                     Sobre
                                 </a>
                             </li>
 
-                            <li className="hover:underline hover:underline-offset-4">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
                                 <a href="#pets">
-                                    Pets para adoção
+                                    Adoção
                                 </a>
                             </li>
 
-                            <li className="hover:underline hover:underline-offset-4">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
                                 <a href="#donate">
-                                    Apoie nossa causa
+                                    Apoie
                                 </a>
                             </li>
                         </ul>

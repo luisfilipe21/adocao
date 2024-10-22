@@ -15,9 +15,13 @@ export default {
         inter: ["Inter", "sans-serif"],
         playfair: ["Playfair Display", "sans-serif"],
         roboto: ["Roboto Mono", "sans-serif"],
+        protest: ["Protest Strike", "sans-serif"]
       },
-      backgroundImage:{
-        bgImage: "url(src/assets/bg.png)"
+      backgroundImage: {
+        bgImage: "url(src/assets/bg.png)",
+        bgImage2: "url(src/assets/paws.svg)",
+        bgImage3: "url(src/assets/capa.webp)",
+        bgImage4: "url(src/assets/capa2.jpg)",
       },
       colors: {
         purple: {
@@ -39,12 +43,25 @@ export default {
         offWhite: {
           1: "#DACFC7ff",
           2: "#A68C70ff"
-        }
-      }
+        },
+      },
+      height:{
+        h1: "34rem",
+        h2: "15rem",
+      },
+      boxShadow: {
+        "purpleShadow":
+          "0 25px 50px -12px rgba(51, 51, 51, .5)"
+
+      },
+      screens: {
+        "mobileHover": {
+          'raw': '(hover:hover)'
+        },
+      },
     },
-  },
-  plugins: [
+    plugins: [
 
-  ],
+    ],
+  }
 }
-
