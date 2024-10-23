@@ -18,7 +18,7 @@ export default {
         protest: ["Protest Strike", "sans-serif"]
       },
       backgroundImage: {
-        bgImage2: "url(src/public/assets/paws.svg)",
+        bgImage2: "url(https://tudodvet.com.br/wp-content/uploads/2021/02/blog_socialize-1.jpg)",
         bgImage3: "url(src/public/assets/capa.webp)",
         bgImage4: "url(src/public/assets/capa2.jpg)",
       },
