@@ -18,10 +18,9 @@ export default {
         protest: ["Protest Strike", "sans-serif"]
       },
       backgroundImage: {
-        bgImage: "url(src/assets/bg.png)",
-        bgImage2: "url(src/assets/paws.svg)",
-        bgImage3: "url(src/assets/capa.webp)",
-        bgImage4: "url(src/assets/capa2.jpg)",
+        bgImage2: "url(src/public/assets/paws.svg)",
+        bgImage3: "url(src/public/assets/capa.webp)",
+        bgImage4: "url(src/public/assets/capa2.jpg)",
       },
       colors: {
         purple: {

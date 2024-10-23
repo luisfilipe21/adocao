@@ -7,7 +7,7 @@ import { IoPawOutline } from "react-icons/io5";
 import { delay, motion } from "framer-motion"
 
 // import foto from '../../../assets/capa.webp';
-import foto from '../../../assets/capa3.jpg';
+import foto from '../../../public/assets/capa3.jpg';
 
 export const Pet = () => {
 
