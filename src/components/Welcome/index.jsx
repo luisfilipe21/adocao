@@ -8,7 +8,7 @@ export const Welcome = () => {
                         Resgates da Tina
                     </h1>
                 </div>
-                <div className="w-full h-full z-0 bg-purple-1 absolute top-0 opacity-10"></div>
+                <div className="w-full h-full z-0 bg-purple-1 absolute top-0 opacity-20"></div>
             </div>
         </section>
     )
