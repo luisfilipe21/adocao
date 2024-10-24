@@ -4,16 +4,21 @@ import { PiDogFill } from "react-icons/pi";
 import { SlMustache } from "react-icons/sl";
 import { IoIosBowtie } from "react-icons/io";
 import { IoPawOutline } from "react-icons/io5";
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
-// import foto from '../../../assets/capa.webp';
 import foto from '../../../public/assets/capa3.jpg';
 
 export const Pet = () => {
 
     const item = {
         hidden: { opacity: 0 },
-        show: { opacity: 1 }
+        show: {
+            opacity: 1,
+            transition: {
+                delayChildren: 0.3,
+                staggerChildren: 0.2,
+            },
+        },
     }
 
 
@@ -26,7 +31,7 @@ export const Pet = () => {
             <div
                 className="flex flex-col items-center 
                 justify-center p-4 rounded-lg my-4
-                border border-offWhite-1 
+                border-offWhite-1 
                 hover:bg-offWhite-3 hover:shadow-3xl
             ">
                 <div className="mb-8">
@@ -78,9 +83,14 @@ export const Pet = () => {
                 </div>
             </div>
             <motion.div
+                initial={{ x: -20 }}
+                whileInView={{ x: 0 }}
+                transition={{ duration: 0.3 }}
+
                 className="absolute top-0 -left-4 flex items-center gap-2 bg-purple-1 rounded-lg px-2">
                 <IoPawOutline size={22} className="text-white1-1" />
-                <motion.span className="text-white1-1 font-semibold">Estou disponível</motion.span>
+                <motion.span
+                    className="text-white1-1 font-semibold">Estou disponível</motion.span>
             </motion.div>
         </motion.li>
     )

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion"
+
 export const Visit = () => {
     return (
         <section className="w-full self-center 
@@ -6,8 +8,12 @@ export const Visit = () => {
         justify-between 
         px-4 py-12 mx-auto bg-offWhite-1
         flex-col lg:px-10">
-            <div className="flex flex-col justify-center items-center">
-
+            <motion.div
+                initial={{ scale: 0 }}
+                whileInView={{ scale: 1 }}
+                transition={{ duration: 0.5 }}
+                className="flex flex-col justify-center items-center">
+                
                 <p className="mb-8 text-justify font-bold text-black-2 text-2xl mx-4">
                     Caso queiram nos visitar para conhecer os seu futuro aumiguo, ficamos em uma chácara próxima ao Itapoã
                 </p>
@@ -19,7 +25,8 @@ export const Visit = () => {
                     style={{ border: 'none' }}
                 >
                 </iframe>
-            </div>
+            </motion.div>
         </section>
     )
+
 }
