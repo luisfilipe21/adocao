@@ -5,7 +5,7 @@ export const Header = () => {
 
 
     return (
-        <header className="px-8 mx-auto bg-white1-1 ">
+        <header className="px-8 mx-auto">
 
             <motion.div
                 initial={{ y: -100 }}
@@ -23,19 +23,19 @@ export const Header = () => {
                 <div className="w-[720px] relative">
                     <nav>
                         <ul className="w-full flex flex-col items-end sm:items-center sm:flex-row sm:justify-evenly  gap-2 font-protest tracking-wide">
-                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
                                 <a href="#about">
                                     Sobre
                                 </a>
                             </li>
 
-                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
                                 <a href="#pets">
                                     Adoção
                                 </a>
                             </li>
 
-                            <li className="uppercase hover:underline hover:underline-offset-4 text-base font-bold text-purple-1">
+                            <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
                                 <a href="#donate">
                                     Apoie
                                 </a>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Pet } from "./Pet";
+import { petData } from "../../data";
 
 export const Pets = () => {
 
@@ -23,37 +24,32 @@ export const Pets = () => {
              justify-between flex-col
             lg:pb-20
             lg:px-10
-            bg-offWhite-1
+            bg-blue-1
             
       ">
             <div className="flex justify-start w-full max-w-[1080px] pt-8 px-4">
-                <motion.h2 
-                initial={{ y: 10, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.8 }}
-                className="font-protest text-purple-1 pb-12 text-4xl" >
+                <motion.h2
+                    initial={{ y: 10, opacity: 0 }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.8 }}
+                    className="font-protest text-orange1-1 pb-12 text-4xl" >
                     Pets para adoção
                 </motion.h2>
             </div>
 
             <div className="max-w-[1080px] px-3  z-40">
                 <motion.ul
-                variants={container}
-                initial="hidden"
-                animate="show" 
-                className="flex gap-4 flex-wrap">
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
-                    <Pet />
+                    variants={container}
+                    initial="hidden"
+                    animate="show"
+                    className="flex gap-4 flex-wrap">
+
+                    {petData.map((pet, id) => {
+                        return (
+                            <Pet key={id} pet={pet} />
+                        )
+                    })}
+
                 </motion.ul>
             </div>
         </section>

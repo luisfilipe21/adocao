@@ -26,9 +26,13 @@ export default {
         purple: {
           1: "#653D96ff"
         },
-        black:{
+        black: {
           1: "#E8E7E4",
-          2:"#050505cc"
+          2: "#050505cc"
+        },
+        blue: {
+          1: "#2b357d",
+          2: "#a4c1fd"
         },
         orange1: {
           1:
@@ -46,15 +50,17 @@ export default {
         offWhite: {
           1: "#DACFC7ff",
           2: "#BCB0A7",
-          3: "#DACFC7"
+          3: "#DACFC7",
+          4: "#f2f0ee",
+          5: "#e8e3e0"
         },
       },
-      height:{
-        h1: "34rem",
+      height: {
+        h1: "42rem",
         h2: "15rem",
       },
       boxShadow: {
-        "3xl":"5px 15px 20px 5px rgba(10, 1, 0, 0.2)",
+        "3xl": "5px 15px 20px 5px rgba(10, 1, 0, 0.2)",
       },
       screens: {
         "mobileHover": {

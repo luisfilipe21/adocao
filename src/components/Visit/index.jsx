@@ -6,16 +6,16 @@ export const Visit = () => {
         gap-4 
         flex items-center 
         justify-between 
-        px-4 py-12 mx-auto bg-offWhite-1
+        px-4 py-20 mx-auto bg-blue-1
         flex-col lg:px-10">
             <motion.div
                 initial={{ scale: 0 }}
                 whileInView={{ scale: 1 }}
                 transition={{ duration: 0.5 }}
-                className="flex flex-col justify-center items-center">
+                className="flex flex-col justify-center items-center lg:max-w-5xl md:max-w-3xl max-w-lg  ">
                 
-                <p className="mb-8 text-justify font-bold text-black-2 text-2xl mx-4">
-                    Caso queiram nos visitar para conhecer os seu futuro aumiguo, ficamos em uma chácara próxima ao Itapoã
+                <p className="mb-8 text-justify font-bold text-white text-2xl mx-4">
+                    Caso queiram nos visitar para conhecer os seu futuro aumigo, ficamos em uma chácara próxima ao Itapoã
                 </p>
 
                 <iframe
