@@ -38,7 +38,7 @@ export const Donate = () => {
                     Não pode adotar agora?
                 </motion.h2>
 
-                <div className="py-8 text-3xl relative text-justify font-bold text-black-2">
+                <div className="py-8 text-3xl relative text-justify font-medium text-black-2">
                     <motion.p
                         initial={{ x: -10 }}
                         whileInView={{ x: 0 }}
@@ -79,9 +79,6 @@ export const Donate = () => {
                     md:justify-around
                     md:gap-2
                     ">
-
-                        { }
-
                         <motion.li
                             variants={container}
                             className="
@@ -89,7 +86,7 @@ export const Donate = () => {
                         sm:max-w-60
                         md:max-w-72
                         ">
-                            <div className="bg-offWhite-4 p-4 rounded-md min-h-[188px] flex flex-col justify-between">
+                            <div className="bg-offWhite-4 p-4 rounded-md min-w-[348px] min-h-[188px] flex flex-col justify-between">
                                 <div className="gap-4">
                                     <FaUserDoctor className="bg-offWhite-1 rounded-full p-2" size={60} color={"#2b357d"} />
                                 </div>
@@ -102,12 +99,11 @@ export const Donate = () => {
                         <motion.li
                             variants={container}
                             className="
-                            min-w-[311px]
                         flex items-center  text-3xl gap-8
                         sm:max-w-60
                         md:max-w-72
                         ">
-                            <div className="bg-offWhite-4 p-4 rounded-md min-h-[188px] flex flex-col justify-between">
+                            <div className="bg-offWhite-4 p-4 rounded-md  min-w-[348px] min-h-[188px] flex flex-col justify-between">
                                 <div className="gap-4">
                                     <GiDogBowl size={60} color={"#2b357d"} className="bg-offWhite-1 rounded-full p-2" />
                                 </div>
@@ -125,7 +121,7 @@ export const Donate = () => {
                         sm:max-w-60
                         md:max-w-72
                         ">
-                            <div className="bg-offWhite-4 p-4 rounded-md min-h-[188px] flex flex-col justify-between">
+                            <div className="bg-offWhite-4 p-4 rounded-md min-w-[348px] min-h-[188px] flex flex-col justify-between">
                                 <div className="gap-4">
                                     < GiCoalPile size={60} color={"#2b357d"} className="bg-offWhite-1 rounded-full p-2" />
                                 </div>
@@ -143,7 +139,7 @@ export const Donate = () => {
                         sm:max-w-60
                         md:max-w-72
                         ">
-                            <div className="bg-offWhite-4 p-4 rounded-md min-h-[188px] flex flex-col justify-between">
+                            <div className="bg-offWhite-4 p-4 rounded-md min-w-[348px] min-h-[188px] flex flex-col justify-between">
                                 <div className="gap-4">
                                     <TbPigMoney size={60} color={"#2b357d"} className="bg-offWhite-1 rounded-full p-2" />
                                 </div>
@@ -155,9 +151,7 @@ export const Donate = () => {
                                     PIX: (61) 99999-9999
                                 </p>
                             </div>
-
                         </motion.li>
-
                     </motion.ul>
                 </div>
 

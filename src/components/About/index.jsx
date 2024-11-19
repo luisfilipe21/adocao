@@ -49,7 +49,7 @@ export const About = () => {
 
                         <motion.div className="flex">
                             <motion.figure
-                                className="flex justify-center flex-wrap gap-4 w-full mb-8 px-12 sm:px-0 md:mb-0 md:flex-row md:items-center">
+                                className="flex justify-center flex-wrap gap-4 w-full mb-8 px-8 sm:px-0 md:mb-0 md:flex-row md:items-center">
                                 
                                 <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
                                 <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
@@ -59,7 +59,7 @@ export const About = () => {
                         </motion.div>
 
                         <div className="gap-6">
-                            <motion.h1 className="text-5xl font-protest text-center font-bold pb-16 pt-8 md:text-start text-orange1-1
+                            <motion.h1 className="text-5xl font-protest text-center pb-16 pt-8 md:text-start text-orange1-1
                             lg: ">
                                 Nessa casa, nenhum bichinho fica de fora.
                             </motion.h1>
@@ -67,7 +67,7 @@ export const About = () => {
                                 initial={{ x: -20 }}
                                 whileInView={{ x: 0 }}
                                 transition={{ duration: 0.4 }}
-                                className="max-w-[850px] pb-6"
+                                className="max-w-[850px] pb-6 font-medium"
                             >
                                 Todos que aparecem na nossa porta, sejam gatos ou cachorros, são recebidos de braços abertos. Cada animalzinho que chega abandonado, machucado ou precisando de cuidados encontra aqui um lar temporário cheio de amor e dedicação.
                             </motion.p>
@@ -76,7 +76,7 @@ export const About = () => {
                                 initial={{ x: -10 }}
                                 whileInView={{ x: 0 }}
                                 transition={{ duration: 0.8 }}
-                                className="max-w-[950px]"
+                                className="max-w-[950px] font-medium"
                             >
                                 A gente cuida de cada um com carinho, garantindo que recebam tratamento veterinário, alimentação e tudo o que precisam até estarem prontos para adoção. Hoje, já temos mais de 20 bichinhos esperando por uma família que os adote e dê a eles o lar que tanto merecem.
                             </motion.p>

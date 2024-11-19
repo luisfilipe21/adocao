@@ -14,8 +14,8 @@ export const Visit = () => {
                 transition={{ duration: 0.5 }}
                 className="flex flex-col justify-center items-center lg:max-w-5xl md:max-w-3xl max-w-lg  ">
                 
-                <p className="mb-8 text-justify font-bold text-white text-2xl mx-4">
-                    Caso queiram nos visitar para conhecer os seu futuro aumigo, ficamos em uma chácara próxima ao Itapoã
+                <p className="mb-8 text-justify font-medium text-white text-2xl mx-4">
+                    Caso queira nos visitar para conhecer os seu futuro aumigo, ficamos em uma chácara próxima ao Itapoã
                 </p>
 
                 <iframe

@@ -20,7 +20,8 @@ export default {
       backgroundImage: {
         bgImage2: "url(src/public/assets/paws.svg)",
         bgImage3: "url(src/public/assets/capa.webp)",
-        bgImage4: "url(https://tudodvet.com.br/wp-content/uploads/2021/02/blog_socialize-1.jpg)",
+        bgImage4: "url(https://i.imgur.com/TTY1ebt.jpeg)",
+        bgImage5: "url(https://tudodvet.com.br/wp-content/uploads/2021/02/blog_socialize-1.jpg)",
       },
       colors: {
         purple: {

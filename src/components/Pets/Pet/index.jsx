@@ -33,9 +33,8 @@ export const Pet = ({ pet }) => {
                 className="flex flex-col items-center 
                 justify-center p-4 rounded-lg my-4
                 bg-offWhite-4
-                border-offWhite-1 shadow-3xl
-                hover:bg-offWhite-5 hover:shadow-3xl
-                
+                border-offWhite-1 shadow-2xl 
+                hover:bg-offWhite-5
             ">
                 <div>
                     <figure className="w-44">

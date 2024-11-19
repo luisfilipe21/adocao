@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import { split } from "postcss/lib/list";
 
 export const Welcome = () => {
 
@@ -10,6 +9,8 @@ export const Welcome = () => {
         hidden: { opacity: 0 },
         show: { opacity: 1 },
     }
+
+ 
 
 
     return (
