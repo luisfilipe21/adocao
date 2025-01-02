@@ -1,6 +1,9 @@
 import { motion } from "framer-motion"
 
-import img from "../../public/assets/teste.png"
+import img from "../../public/assets/capa4.jpg"
+import img2 from "../../public/assets/capa5.jpg"
+import img3 from "../../public/assets/capa6.jpg"
+import img4 from "../../public/assets/capa7.jpg"
 
 export const About = () => {
 
@@ -52,9 +55,9 @@ export const About = () => {
                                 className="flex justify-center flex-wrap gap-4 w-full mb-8 px-8 sm:px-0 md:mb-0 md:flex-row md:items-center">
                                 
                                 <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
-                                <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
-                                <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
-                                <img src={img} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
+                                <img src={img2} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
+                                <img src={img3} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
+                                <img src={img4} alt="" className="w-28 h-36 md:w-40 md:h-48 lg:w-56 lg:h-80 rounded-md " />
                             </motion.figure>
                         </motion.div>
 

@@ -33,14 +33,14 @@ export const Pet = ({ pet }) => {
             className="mx-auto relative cursor-pointer">
             <div
                 className="flex flex-col items-center 
-                justify-center p-4 rounded-lg my-4
+                justify-center m-4 rounded-lg my-4
                 bg-offWhite-4
                 border-offWhite-1 shadow-2xl 
                 hover:bg-offWhite-5
             ">
-                <div>
-                    <figure className="w-44">
-                        <img src={pet.img} alt="" className="rounded-lg w-full h-36" />
+                <div className="w-full h-full">
+                    <figure className="w-52 h-full">
+                        <img src={pet.img} alt="" className="rounded-lg w-full h-44" />
                     </figure>
                 </div>
 
@@ -49,7 +49,6 @@ export const Pet = ({ pet }) => {
                         {pet.race == "Cão" ? <PiDogFill size={30} /> : <PiCat size={30} />}
                         <h2 className="text-2xl my-4">{pet.nome}</h2>
                     </div>
-
                 </div>
             </div>
             <motion.div

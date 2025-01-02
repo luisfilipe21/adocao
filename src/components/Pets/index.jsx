@@ -34,7 +34,7 @@ export const Pets = () => {
                     initial={{ y: 10, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
-                    className="font-protest text-orange1-1 pb-12 text-4xl" >
+                    className="font-protest text-orange1-1 pb-12 text-4xl font-bold" >
                     Pets para adoção
                 </motion.h2>
             </div>
@@ -51,7 +51,6 @@ export const Pets = () => {
                             <Pet key={id} pet={pet} />
                         )
                     })}
-
                 </motion.ul>
             </div>
         </section>

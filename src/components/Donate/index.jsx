@@ -34,7 +34,7 @@ export const Donate = () => {
                     initial={{ y: 100, opacity: 0 }}
                     whileInView={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.8 }}
-                    className="font-protest text-orange1-1 pb-4 lg:pb-12 text-4xl" >
+                    className="font-protest text-orange1-1 pb-4 lg:pb-12 text-4xl font-bold" >
                     Não pode adotar agora?
                 </motion.h2>
 
