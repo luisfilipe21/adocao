@@ -6,9 +6,14 @@ import { Donate } from './components/Donate'
 import { Visit } from './components/Visit'
 import { useSlowScroll } from './hooks/useSlowScroll'
 import { Welcome } from './components/Welcome'
+import { Modal } from './components/Modal'
+import { PetsContext } from './provider'
+import { useContext } from 'react'
 
 function App() {
   useSlowScroll();
+  
+  const {showModal} = useContext(PetsContext);
 
   return (
     <>
@@ -21,6 +26,7 @@ function App() {
         <Visit />
         <div className="absolute bg-bgImage2 bg-contain w-full h-full bg-repeat top-40 opacity-10 z-10"></div>
       </main>
+      {showModal ? <Modal /> : null }
       <Footer />
     </>
   )

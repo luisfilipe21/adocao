@@ -6,10 +6,13 @@ import { IoIosBowtie } from "react-icons/io";
 import { IoPawOutline } from "react-icons/io5";
 import { motion } from "framer-motion";
 import { TfiRulerAlt } from "react-icons/tfi";
+import { PetsContext } from "../../../provider";
+import { useContext } from "react";
 
 
 
 export const Pet = ({ pet }) => {
+    const { petInfoModal, getPetInfo } = useContext(PetsContext);
 
     const item = {
         hidden: { opacity: 0 },
@@ -22,13 +25,12 @@ export const Pet = ({ pet }) => {
         },
     }
 
-
-
     return (
         <motion.li
             whileHover={{ y: -20 }}
             variants={item}
-            className="mx-auto relative">
+            onClick={() => getPetInfo(pet)}
+            className="mx-auto relative cursor-pointer">
             <div
                 className="flex flex-col items-center 
                 justify-center p-4 rounded-lg my-4
@@ -48,40 +50,6 @@ export const Pet = ({ pet }) => {
                         <h2 className="text-2xl my-4">{pet.nome}</h2>
                     </div>
 
-                    <div className="flex gap-4">
-
-                        <div className="flex flex-col items-start gap-2">
-                            <div className="flex items-center gap-1">
-                                {pet.sexo == "Macho" ? <SlMustache size={30} color="#F8AC41ff" /> : <IoIosBowtie size={30} color="#F8AC41ff" />}
-
-                                <p>{pet.sexo}</p>
-                            </div>
-                            <div className="flex items-center gap-1">
-                                <MdOutlineHealthAndSafety size={30} color="#F8AC41ff" />
-                                <p>
-                                    {pet.castrado}
-                                </p>
-                            </div>
-
-                        </div>
-
-                        <div className="flex flex-col items-start gap-2">
-
-                            <div className="flex items-center gap-1">
-                                <TfiRulerAlt size={30} color="#F8AC41ff" />
-                                <p>
-                                    {pet.tamanho}
-                                </p>
-                            </div>
-
-                            <div className="flex items-center gap-1">
-                                <MdPets size={30} color="#F8AC41ff" />
-                                <p>
-                                    {pet.idade}
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <motion.div

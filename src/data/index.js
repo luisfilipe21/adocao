@@ -6,7 +6,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/guDT22k.jpeg",
         race: "Cão"
     },
     {
@@ -16,7 +16,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/EuC45Xl.jpeg",
         race: "Cão"
     },
     {
@@ -26,7 +26,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/wZcjYyJ.jpeg",
         race: "Gato"
     },
     {
@@ -36,7 +36,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/lW4372p.jpeg",
         race: "Gato"
     },
     {
@@ -46,8 +46,8 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
-        race: "Gato"
+        img: "https://i.imgur.com/DnQ5jVe.jpeg",
+        race: "Cão"
     },
     {
         id: 6,
@@ -56,7 +56,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/usZM9n6.jpeg",
         race: "Cão"
     },
     {
@@ -66,7 +66,7 @@ export const petData = [
         tamanho: "Porte média",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/BXYyJIC.jpeg",
         race: "Cão"
     },
     {
@@ -76,7 +76,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/iXZ9eob.jpeg",
         race: "Gato"
     },
     {
@@ -86,8 +86,8 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
-        race: "Cão"
+        img: "https://i.imgur.com/KY5OPSo.jpeg",
+        race: "Gato"
     },
     {
         id: 10,
@@ -96,7 +96,7 @@ export const petData = [
         tamanho: "Porte médio",
         castrado: "Castrado",
         idade: "Adulto",
-        img: "https://i.imgur.com/s0IRPq0.png",
+        img: "https://i.imgur.com/uwuCa7r.jpeg",
         race: "Cão"
     }
 ]

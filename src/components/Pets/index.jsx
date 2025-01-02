@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { Pet } from "./Pet";
 import { petData } from "../../data";
+import { PetsContext } from "../../provider";
+import { useContext } from "react";
 
 export const Pets = () => {
-
+    // const { petInfoModal, getPetInfo } = useContext(PetsContext);
     const container = {
         hidden: { opacity: 0 },
         show: {
@@ -14,7 +16,7 @@ export const Pets = () => {
         }
     }
 
-
+    // console.log(petInfoModal)
 
     return (
         <section id="pets"
