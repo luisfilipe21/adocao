@@ -148,7 +148,7 @@ export const Donate = () => {
                                 </h3>
 
                                 <p className="text-base">
-                                    PIX: (61) 99999-9999
+                                    PIX: (61) 99202-6427
                                 </p>
                             </div>
                         </motion.li>
