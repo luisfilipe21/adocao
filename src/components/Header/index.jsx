@@ -12,7 +12,7 @@ export const Header = () => {
                 animate={{ y: 0 }}
                 transition={{ delay: 1 }}
                 className="md:max-w-[1080px] max-w-[720px]
-             m-auto w-full flex justify-between items-center"
+             m-auto w-full flex justify-between items-center z-50"
             >
                 <div className="mr-8" id="top">
                     <figure >
