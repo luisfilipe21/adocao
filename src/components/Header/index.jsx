@@ -12,7 +12,7 @@ export const Header = () => {
                 animate={{ y: 0 }}
                 transition={{ delay: 1 }}
                 className="md:max-w-[1080px] max-w-[720px]
-             m-auto w-full flex justify-between items-center z-50"
+             m-auto w-full flex justify-between items-center z-40"
             >
                 <div className="mr-8" id="top">
                     <figure >
@@ -24,19 +24,19 @@ export const Header = () => {
                     <nav>
                         <ul className="w-full flex flex-col items-end sm:items-center sm:flex-row sm:justify-evenly  gap-2 font-protest tracking-wide">
                             <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
-                                <a href="#about">
+                                <a href="#about z-50">
                                     Sobre
                                 </a>
                             </li>
 
                             <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
-                                <a href="#pets">
+                                <a href="#pets z-50">
                                     Adoção
                                 </a>
                             </li>
 
                             <li className="uppercase hover:underline hover:underline-offset-4 text-xl font-bold text-blue-1">
-                                <a href="#donate">
+                                <a href="#donate z-50">
                                     Apoie
                                 </a>
                             </li>
